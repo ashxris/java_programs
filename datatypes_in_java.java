@@ -11,6 +11,12 @@ public class datatypes_in_java {
         System.out.println(grade);
         System.out.println(isStudent);
 
+        if (isStudent){
+            System.out.println("You are a student.");
+        }
+        else {
+            System.out.println("You are NOT a student.");
+        }
 
     }
 }
