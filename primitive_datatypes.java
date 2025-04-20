@@ -1,5 +1,8 @@
-public class datatypes_in_java {
+public class primitive_datatypes {
+    
     public static void main (String[] args){
+
+        //Use of primitive datatypes in java (int, double, char, boolean)
 
         int age = 45;
         double principle = 47999.50;
@@ -19,4 +22,5 @@ public class datatypes_in_java {
         }
 
     }
+    
 }
