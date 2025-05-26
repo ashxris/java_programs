@@ -19,4 +19,5 @@ public class var_args{
         System.out.println("The sum is: "+sum);
 
     }
+    
 }
