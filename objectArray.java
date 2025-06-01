@@ -10,7 +10,7 @@ public class objectArray {
 
     public static void main (String[] args){
 
-        objectArray[] name = {new objectArray("Nitin"), new objectArray("Rudra")};
+        objectArray[] name = {new objectArray("Tony"), new objectArray("John")};
     }
     
 }
