@@ -10,6 +10,11 @@ public class objectArray {
 
     public static void main(String[] args) {
         // Create an array of ObjectArray objects
-        objectArray[] objects = {new objectArray("Tony"), new objectArray("John")};
+        objectArray[] mynamessObjectArrays = {new objectArray("Tony"), new objectArray("John")};
+
+        // Use the array to print the names
+        for (objectArray obj : mynamessObjectArrays) {
+            System.out.println("Accessed name: " + obj.name);
+        }
     }
 }
