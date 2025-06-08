@@ -2,15 +2,14 @@ public class objectArray {
 
     String name;
 
-    //made a constructor
-    public objectArray(String name){
-        System.out.println("My name is : "+name);
-
+    // Constructor to initialize the name
+    public objectArray(String name) {
+        this.name = name; // Assign the value to the instance variable
+        System.out.println("My name is: " + this.name);
     }
 
-    public static void main (String[] args){
-
-        objectArray[] name = {new objectArray("Tony"), new objectArray("John")};
+    public static void main(String[] args) {
+        // Create an array of ObjectArray objects
+        objectArray[] objects = {new objectArray("Tony"), new objectArray("John")};
     }
-    
 }
