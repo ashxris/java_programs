@@ -6,5 +6,11 @@ public class objects {
         System.out.println(car.car);
 
         car.start();
+
+        System.out.println("---\n");
+
+        dog dog = new dog();
+
+        dog.eat();
     }
 }
